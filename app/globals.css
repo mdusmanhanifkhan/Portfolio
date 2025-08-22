@@ -2,10 +2,12 @@
 
 @theme {
   --text-*: initial;
-  --text-base: 14px; /* Color */
+  --text-base: 14px;
+   /* Color */
   --color-*: initial;
   --color-black: #0b0903;
-  --color-white: #ffffff; /* Green color */
+  --color-white: #ffffff; 
+  /* Green color */
   --color-green: #3a8959;
   --color-green-100: #3a8959;
   --color-green-200: #07ba4c14;
