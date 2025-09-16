@@ -16,9 +16,21 @@
   --font-montserrat: var(--font-montserrat), sans-serif;
   --font-spaceGrotesk: var(--font-space-grotesk), sans-serif;
 
-
+  --breakpoint-*: initial;
+  --breakpoint-desktop-2xl: 2560px;
+  --breakpoint-desktop-xl: 1920px;
+  --breakpoint-desktop-lg: 1440px;
+  --breakpoint-desktop: 1280px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-mobile-lg: 400px;
+  --breakpoint-mobile: 320px;
 }
 
 body {
   @apply bg-black text-base;
+}
+
+.container{
+  @apply px-[8px] tablet:px-[20px] laptop:px-0 laptop:max-w-[993px] desktop:max-w-[1200px] desktop-lg:max-w-[1380px] desktop-xl:max-w-[1700px] w-full mx-auto
 }
